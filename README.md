@@ -16,14 +16,6 @@ Now you finally can have a HomeKit devices without spending a lot of money!
 ### Compatible Devices
 This Software is currently tested on: **Sonoff Basic**, **Sonoff Slampher**, **Sonoff S26** (thanks Arjan)
 
-### Video Demo
-
-Click on the image for play the video:
-<br>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=_PLeu4v50h0
-" target="_blank"><img src="http://img.youtube.com/vi/_PLeu4v50h0/0.jpg" 
-alt="Video" width="480" height="270" border="10" /></a>
-
 ---
 
 ## New Functionalities
@@ -54,7 +46,8 @@ By default the Sonoff will have a Enabled state at power on, you can change this
 ### Flash the Sonoff
  1) Unplug your sonoff from the power line _(or you can burn your PC)_
  2) Connect your Sonoff to a serial adapter @ 3.3v
- 3) Run the `flash.sh` script 
+ 3) Hold down the black pin on the Sonoff while connecting Pi to power source.
+ 4) Run the `flash.sh` script 
 
 ### Add Sonoff to Home app
  1) Connect your iPhone or iPad to the new wifi network `Sonoff Switch-xxx`
@@ -70,19 +63,11 @@ By default the Sonoff will have a Enabled state at power on, you can change this
 
 Done! 🎉 
 
-## If you like this project please:
-
-<a href="https://bmc.xyz/l/SonoffHomekit" target="_blank"><img src="https://raw.githubusercontent.com/Gruppio/Sonoff-Homekit/images/images/buymeacoffee.png" alt="Buy Me A Coffee" width="300" ></a>
-
-My supporters will also receive immediately:
-
-* A **Step-by-Step Video Tutorial** that will help you to flash and connect your Sonoff
-* A personal **E-Mail** where you can write to me your Issues
-
 ---
 
 #### Special thanks to:
 @maximkulkin
+@Gruppio
 
 This project would not have existed without:
 https://github.com/maximkulkin/esp-homekit
